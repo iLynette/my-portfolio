@@ -23,6 +23,15 @@ li {
     list-style: none;
 }
 
+.menu {
+    display: none;
+}
+
+.welcome {
+    color: black;
+    display: none;
+}
+
 
 .nav-list {
     display: flex;
@@ -83,8 +92,12 @@ li {
     flex-wrap: wrap;
     width: 50%;
     margin: 0 auto;
+    margin-top: 25px;
 }
 
 /* media queries */
+
+
+
 
 
