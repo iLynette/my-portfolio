@@ -6,6 +6,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-decoration: none;
+
 }
 
 html {
@@ -14,6 +15,9 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.intro {
     background-color: #e5e5e5;
     background-image: url(./images/pic1.png);
     background-size: cover;
@@ -53,6 +57,10 @@ li {
     padding-top: 20px;
     gap: 20px;
     cursor: pointer;
+}
+
+.icon-list {
+    color: black;
 }
 
 .content {
@@ -96,8 +104,69 @@ li {
 }
 
 /* media queries */
+@media screen and (max-width: 600px) {
+    .nav-list {
+        display: none;
+    }
+    .welcome {
+        display: block;
+        background-color: white;
+        color: #000;
+        font-size: 20px;
+        padding: 10px;
 
+    }
+    .welcome i {
+        display: inline;
+        float: right;
+        margin-top: 5px;
 
+    }
+    .intro {
+        background-image: url(./images/pic1.png);
+        background-size: contain;
+        width: 475px;
+        height: 600px;
+    }
 
+    .greetings {
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
 
+    .first {
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .second {
+        font-size: 20px;
+        font-weight: 400;
+        align-items: center;
+        line-height: 20px;
+        font-style: normal;
+        letter-spacing: 0em;
+        width: 327px;
+        height: 164px;
+    }
+
+    .page-links {
+        cursor: pointer;
+    }
+    .welcome:hover {
+        text-decoration: underline;
+    }
+    a:hover {
+        background-color: blue;
+    }
+} 
 
