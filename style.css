@@ -17,16 +17,22 @@ body {
 }
 
 .intro {
-  background-color: #e5e5e5;
   background-image: url(./images/pic1.png);
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 li {
   list-style: none;
 }
 
-.menu {
+.burger {
   display: none;
 }
 
@@ -34,6 +40,7 @@ li {
   color: black;
   display: none;
 }
+
 
 .nav-list {
   display: flex;
@@ -103,23 +110,22 @@ li {
     display: none;
   }
 
-  .welcome {
-    display: block;
-    background-color: white;
+  .burger {
+      float: right;
+
+  }
+  .welcome,
+  .burger {
+
     color: #000;
     font-size: 20px;
     padding: 10px;
-  }
-
-  .welcome i {
-    display: inline;
-    float: right;
-    margin-top: 5px;
+      display: inline-block;
   }
 
   .intro {
     background-image: url(./images/pic1.png);
-    background-size: contain;
+    background-size: cover;
     width: 475px;
     height: 600px;
   }
@@ -127,15 +133,16 @@ li {
   .greetings {
     font-size: 40px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 530;
     line-height: 52px;
     letter-spacing: 0;
     text-align: center;
+    padding-top: 0;
   }
 
   .first {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 52px;
     letter-spacing: 0;
     text-align: center;
@@ -160,7 +167,4 @@ li {
     text-decoration: underline;
   }
 
-  a:hover {
-    background-color: blue;
-  }
 }
