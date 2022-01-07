@@ -41,7 +41,6 @@ li {
   display: none;
 }
 
-
 .nav-list {
   display: flex;
   width: 100%;
@@ -112,16 +111,16 @@ li {
 
   .burger {
       float: right;
+    }
 
-  }
-  .welcome,
-  .burger {
 
-    color: #000;
-    font-size: 20px;
-    padding: 10px;
-    display: inline-block;
-  }
+    .welcome,
+    .burger {
+        color: #000;
+        font-size: 20px;
+        padding: 10px;
+        display: inline-block;
+    }
 
   .intro {
     background-image: url(./images/pic1.png);
