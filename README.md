@@ -4,7 +4,7 @@
 
 > Creating my portfolio
 
-![screenshot](./pic2.png)
+![screenshot](./pic3.png)
 
 
 
