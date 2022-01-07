@@ -8,16 +8,8 @@
   text-decoration: none;
 }
 
-html {
-  overflow: hidden;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
-  height: 192px;
-  width: 400px;
-  left: 24px;
-  top: 64px;
 }
 
 li {
