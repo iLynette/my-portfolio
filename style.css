@@ -110,59 +110,58 @@ li {
   }
 
   .burger {
-      float: right;
-    }
+    float: right;
+  }
 
-    .welcome,
-    .burger {
-        color: #000;
-        font-size: 20px;
-        padding: 10px;
-        display: inline-block;
-    }
+  .welcome,
+  .burger {
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+  }
 
-    .intro {
-        background-image: url(./images/pic1.png);
-        background-size: cover;
-        width: 475px;
-        height: 600px;
-    }
+  .intro {
+    background-image: url(./images/pic1.png);
+    background-size: cover;
+    width: 475px;
+    height: 600px;
+  }
 
-    .greetings {
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 530;
-        line-height: 52px;
-        letter-spacing: 0;
-        text-align: center;
-        padding-top: 0;
-    }
+  .greetings {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 530;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 0;
+  }
 
-    .first {
-        font-size: 40px;
-        font-weight: 500;
-        line-height: 52px;
-        letter-spacing: 0;
-        text-align: center;
-    }
+  .first {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: center;
+  }
 
-    .second {
-        font-size: 20px;
-        font-weight: 400;
-        align-items: center;
-        line-height: 20px;
-        font-style: normal;
-        letter-spacing: 0;
-        width: 327px;
-        height: 164px;
-    }
+  .second {
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    line-height: 20px;
+    font-style: normal;
+    letter-spacing: 0;
+    width: 327px;
+    height: 164px;
+  }
 
-    .page-links {
-        cursor: pointer;
-    }
+  .page-links {
+    cursor: pointer;
+  }
 
-    .welcome:hover {
-        text-decoration: underline;
-    }
-
+  .welcome:hover {
+    text-decoration: underline;
+  }
 }
