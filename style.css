@@ -8,10 +8,6 @@
   text-decoration: none;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
 li {
   list-style: none;
 }
@@ -37,6 +33,7 @@ header {
 }
 
 .intro {
+  font-family: 'Poppins', sans-serif;
   background-image: url(./images/home.png);
   background-position: center;
   background-size: cover;
@@ -82,4 +79,82 @@ h1 span {
 
 .page-links li {
   margin-right: 19px;
+}
+
+.my-projects {
+  padding: 15px;
+  margin: 20px;
+}
+
+.down-arrow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.single-project {
+  height: 474px;
+  width: 327px;
+  border-radius: 8px;
+  border: 2px solid #ebf0ee;
+  margin: 5px auto;
+}
+
+.single-project img {
+  width: 100%;
+  height: 55%;
+}
+
+.single-project .project-title {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+
+.single-project .project-title h4 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #3a4a42;
+}
+
+.tech-stack {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.tech-stack li {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  background: #ebf0ee;
+  color: #3a4a42;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 22px;
 }
