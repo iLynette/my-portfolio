@@ -6,6 +6,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: 'Inter', sans-serif;
 }
 
 li {
@@ -21,6 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 20px 20px 0 20px;
+  line-height: 52px;
 }
 
 .logo {
@@ -33,7 +35,6 @@ header {
 }
 
 .intro {
-  font-family: 'Poppins', sans-serif;
   background-image: url(./images/home.png);
   background-position: center;
   background-size: cover;
@@ -172,6 +173,7 @@ h1 span {
 }
 
 .heading {
+  color: #172b4d;
   font-size: 40px;
   font-weight: 700;
   line-height: 107%;
@@ -193,3 +195,75 @@ h1 span {
   color: #42526e;
 }
 
+.about-me {
+  background-image: url(./images/shot1.svg), url(./images/shot2.svg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom left;
+  width: 100%;
+  position: relative;
+}
+
+.coding-language {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 352px;
+  width: 327px;
+  border-radius: 8px;
+  border: 1px solid #d0d9d4;
+  margin-top: 24px;
+  background: #ebf0ee;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+}
+
+.stack-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.stack-btn li {
+  margin-right: 12px;
+}
+
+.one {
+  color: #344563;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.list {
+  flex-wrap: wrap;
+  background-color: #fff;
+  color: #36b37e;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 6px 10px;
+  margin-right: 8px;
+  margin-bottom: 29px;
+  letter-spacing: 1px;
+}
+
+.my-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 8px;
+  background-color: #ebf0ee;
+}
