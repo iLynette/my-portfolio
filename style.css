@@ -172,6 +172,10 @@ h1 span {
   line-height: 24px;
 }
 
+.btn button:hover {
+  background-color: rgb(43, 107, 43);
+}
+
 .heading {
   color: #172b4d;
   font-size: 40px;
