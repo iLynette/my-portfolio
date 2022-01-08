@@ -158,3 +158,38 @@ h1 span {
   justify-content: center;
   margin: 22px;
 }
+
+.btn button {
+  background: #36b37f;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  padding: 15px 20px;
+  outline: none;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 107%;
+  text-align: center;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.information p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  height: 189px;
+  width: 351px;
+  color: #42526e;
+}
+
