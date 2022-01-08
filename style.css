@@ -116,7 +116,7 @@ h1 span {
   width: 327px;
   border-radius: 8px;
   border: 2px solid #ebf0ee;
-  margin: 5px auto;
+  margin: 5px -10px;
 }
 
 .single-project img {
@@ -173,7 +173,18 @@ h1 span {
 }
 
 .btn button:hover {
-  background-color: rgb(43, 107, 43);
+  background-color: #1e2e27;
+  cursor: pointer;
+}
+
+.btn button:active {
+  background-color: rgb(172, 31, 31);
+  color: white;
+}
+
+.btn button:disabled {
+  background-color: yellowgreen;
+  color: yellowgreen;
 }
 
 .heading {
