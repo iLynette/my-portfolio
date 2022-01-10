@@ -6,18 +6,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-decoration: none;
-}
-
-html {
-  overflow: hidden;
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
-  height: 192px;
-  width: 400px;
-  left: 24px;
-  top: 64px;
+  font-family: 'Inter', sans-serif;
 }
 
 li {
@@ -33,6 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 20px 20px 0 20px;
+  line-height: 52px;
 }
 
 .logo {
@@ -90,4 +80,205 @@ h1 span {
 
 .page-links li {
   margin-right: 19px;
+}
+
+.my-projects {
+  padding: 15px;
+  margin: 20px;
+}
+
+.down-arrow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.single-project {
+  height: 474px;
+  width: 327px;
+  border-radius: 8px;
+  border: 2px solid #ebf0ee;
+  margin: 5px -10px;
+}
+
+.single-project img {
+  width: 100%;
+  height: 55%;
+}
+
+.single-project .project-title {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+
+.single-project .project-title h4 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #3a4a42;
+}
+
+.tech-stack {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.tech-stack li {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  background: #ebf0ee;
+  color: #3a4a42;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 22px;
+}
+
+.btn button {
+  background: #36b37f;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  padding: 15px 20px;
+  outline: none;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.btn button:hover {
+  background-color: #1e2e27;
+  cursor: pointer;
+}
+
+.btn button:active {
+  background-color: rgb(172, 31, 31);
+  color: white;
+}
+
+.btn button:disabled {
+  background-color: yellowgreen;
+  color: yellowgreen;
+}
+
+.heading {
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 107%;
+  text-align: center;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.information p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  height: 189px;
+  width: 351px;
+  color: #42526e;
+}
+
+.about-me {
+  background-image: url(./images/shot1.svg), url(./images/shot2.svg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom left;
+  width: 100%;
+  position: relative;
+}
+
+.coding-language {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 352px;
+  width: 327px;
+  border-radius: 8px;
+  border: 1px solid #d0d9d4;
+  margin-top: 24px;
+  background: #ebf0ee;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+}
+
+.stack-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.stack-btn li {
+  margin-right: 12px;
+}
+
+.one {
+  color: #344563;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.list {
+  flex-wrap: wrap;
+  background-color: #fff;
+  color: #36b37e;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 6px 10px;
+  margin-right: 8px;
+  margin-bottom: 29px;
+  letter-spacing: 1px;
+}
+
+.my-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 8px;
+  background-color: #ebf0ee;
 }
