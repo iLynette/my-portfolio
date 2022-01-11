@@ -139,13 +139,13 @@ h1 span {
 }
 
 .tech-stack {
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
 }
 
 .tech-stack li {
-  float: left;
   padding: 8px;
-  margin: 3px;
   border-radius: 4px;
   font-size: 12px;
   line-height: 16px;
