@@ -284,6 +284,7 @@ h1 span {
 }
 
 .contact {
+  background: no-repeat 100% 90% url(./images/illustration-contact-form.png);
   transform: translateX(20px);
   width: 375px;
   height: 879px;
@@ -297,7 +298,7 @@ h1 span {
   font-weight: 700;
   line-height: 52px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 input {
@@ -314,7 +315,7 @@ textarea {
   border-radius: 4px;
   margin-top: 20px;
   padding: 15px;
-  color: #091E42;
+  color: #091e42;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
