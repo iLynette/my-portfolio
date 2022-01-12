@@ -333,3 +333,19 @@ textarea {
   line-height: 24px;
   text-align: center;
 }
+
+.btn-green:hover {
+  background-color: rgb(3, 46, 3);
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-green button:active {
+  background-color: rgb(172, 31, 31);
+  color: white;
+}
+
+.btn-green button:disabled {
+  background-color: rgb(50, 130, 205);
+  color: white;
+}
