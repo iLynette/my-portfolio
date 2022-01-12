@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 li {
@@ -139,13 +139,13 @@ h1 span {
 }
 
 .tech-stack {
-  display: flex;
-  justify-content: space-around;
-  margin: 15px 0;
+  display: inline-block;
 }
 
 .tech-stack li {
+  float: left;
   padding: 8px;
+  margin: 5px;
   border-radius: 4px;
   font-size: 12px;
   line-height: 16px;
@@ -220,7 +220,6 @@ h1 span {
   margin-bottom: 30px;
   background-repeat: no-repeat, no-repeat;
   background-position: top right, bottom left;
-  width: 100%;
   position: relative;
 }
 
@@ -281,4 +280,77 @@ h1 span {
   align-items: center;
   border-bottom: 8px;
   background-color: #ebf0ee;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  background: no-repeat 100% 100% url(./images/illustration-contact-form.png);
+  padding: 64px 24px 64px 24px;
+}
+
+.contact h3 {
+  height: 363px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+input {
+  height: 48px;
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #d0d9d4;
+}
+
+textarea {
+  height: 114px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  color: #091e42;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.btn-green {
+  background-color: #36b37f;
+  height: 48px;
+  width: 129px;
+  border-radius: 4px;
+  padding: 12px;
+  display: flex;
+  margin: auto;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.btn-green:hover {
+  background-color: rgb(3, 46, 3);
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-green button:active {
+  background-color: rgb(172, 31, 31);
+  color: white;
+}
+
+.btn-green button:disabled {
+  background-color: rgb(50, 130, 205);
+  color: white;
 }

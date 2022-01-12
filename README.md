@@ -12,6 +12,8 @@
 
 - HTML
 - CSS
+- Linters
+- Figma
 - VS code
 
 Prerequisites
@@ -27,6 +29,11 @@ You only need a browser to run the html file.
 - GitHub: [@githubhandle](https://github.com/iLynette)
 - Twitter: [@twitterhandle](https://twitter.com/acholah_lynette)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lynette-acholah/)
+
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/i-max-xi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/appiah-maxwell-0212b41a1/)
 
 
 ## 🤝 Contributing
