@@ -282,6 +282,11 @@ h1 span {
   background-color: #ebf0ee;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact {
   background: no-repeat 100% 100% url(./images/illustration-contact-form.png);
   padding: 64px 24px 64px 24px;
