@@ -449,4 +449,72 @@ textarea {
     justify-content: space-around;
     margin: 15px 0;
   }
+
+  .heading {
+    width: 447px;
+    height: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 52px;
+  }
+
+  .information p {
+    width: 920px;
+    height: 96px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+    color: #42526e;
+    font-size: 20px;
+    text-align: center;
+    margin: 24px 0;
+  }
+
+  footer {
+    display: flex;
+  }
+
+  .contact h3 {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    color: #172b4d;
+    width: 463px;
+    height: 256px;
+  }
+
+  input {
+    height: 48px;
+    width: 684px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+    background: #fff;
+  }
+
+  textarea {
+    height: 114px;
+    width: 684px;
+    border-radius: 4px;
+    line-height: 24px;
+    font-size: 15px;
+    color: #091e42;
+    font-weight: 500;
+  }
+
+  .btn-green {
+    height: 46px;
+    width: 120px;
+    font-size: 17px;
+    letter-spacing: 3%;
+    left: 12px;
+    top: 12px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+  }
 }
