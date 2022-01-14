@@ -72,6 +72,10 @@ hr {
 }
 
 .paragraph {
+  transform: translateX(75px);
+  text-align: center;
+  width: 327px;
+  height: 363px;
   margin: 60px;
   font-weight: 700;
   line-height: 52px;
