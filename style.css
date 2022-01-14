@@ -67,6 +67,14 @@ h1 span {
   font-size: 40px;
 }
 
+.paragraph {
+  margin: 60px;
+  font-weight: 700;
+  line-height: 52px;
+  font-size: 40px;
+  color: #172b4d;
+}
+
 .introduction {
   color: #3b4c69;
   text-align: center;
@@ -291,11 +299,6 @@ form {
   display: flex;
   flex-direction: column;
 }
-
-/* .contact {
-  background: no-repeat 100% 100% url(./images/illustration-contact-form.png);
-  padding: 64px 24px 64px 24px;
-} */
 
 .contact h3 {
   height: 363px;
