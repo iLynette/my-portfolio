@@ -541,12 +541,15 @@ textarea {
   }
 
   .lang {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    gap: 24px;
-    height: 360px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width: 1171px;
+  }
+
+  .coding-language {
+    width: 369px;
+    height: 352px;
+    border-radius: 8px;
   }
 }
