@@ -302,6 +302,7 @@ hr {
 
 form {
   display: flex;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -316,20 +317,19 @@ form {
 
 input {
   height: 48px;
-  width: 100%;
+  width: 327px;
   border-radius: 4px;
-  margin-top: 20px;
   padding: 15px;
+  margin: 10px auto;
   border: 1px solid #d0d9d4;
 }
 
 textarea {
   height: 114px;
-  width: 100%;
+  width: 327px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: auto;
   padding: 15px;
   color: #091e42;
   font-size: 15px;
@@ -344,7 +344,7 @@ textarea {
   border-radius: 4px;
   padding: 12px;
   display: flex;
-  margin: auto;
+  margin: 10px auto;
   color: white;
   font-size: 17px;
   font-weight: 500;
