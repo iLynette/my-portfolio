@@ -439,6 +439,10 @@ textarea {
     padding-bottom: 50px;
   }
 
+  .single-project img:hover {
+    transform: scale(1.03);
+  }
+
   .tech-stack {
     display: flex;
     justify-content: space-around;
@@ -475,6 +479,10 @@ textarea {
 
   .paragraph {
     transform: translateY(-70px);
+  }
+
+  .paragraph:hover {
+    transform: translateY(-70px) translateX(3px);
   }
 
   .footer-grid h3 {
