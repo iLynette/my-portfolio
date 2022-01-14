@@ -123,17 +123,17 @@ hr {
 }
 
 .project-container {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .single-project {
   height: 474px;
-  width: 327px;
   border-radius: 8px;
   border: 2px solid #ebf0ee;
   margin: 5px -10px;
+  padding-bottom: 30px;
 }
 
 .single-project img {
@@ -156,7 +156,8 @@ hr {
 }
 
 .tech-stack {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .tech-stack li {
@@ -440,7 +441,7 @@ footer {
     transform: translateY(-220px);
   }
 
-  .my-projects {
+  .project-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -511,7 +512,7 @@ footer {
 
   input {
     height: 48px;
-    width: 644px;
+    width: 600px;
     border-radius: 4px;
     border: 1px solid #d0d9d4;
     box-sizing: border-box;
@@ -520,7 +521,7 @@ footer {
 
   textarea {
     height: 114px;
-    width: 644px;
+    width: 600px;
     border-radius: 4px;
     line-height: 24px;
     font-size: 15px;
