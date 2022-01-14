@@ -67,6 +67,10 @@ h1 span {
   font-size: 40px;
 }
 
+hr {
+  display: none;
+}
+
 .paragraph {
   margin: 60px;
   font-weight: 700;
@@ -347,6 +351,18 @@ textarea {
   text-align: center;
 }
 
+footer {
+  padding-top: 30px;
+}
+
+.mail {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+
 .btn-green:hover {
   background-color: rgb(3, 46, 3);
   color: #fff;
@@ -558,5 +574,9 @@ textarea {
     height: 1px;
     border-top: 1px solid #dfe1e6;
     margin: 20px 0 10px 0;
+  }
+
+  .mail {
+    display: none;
   }
 }
