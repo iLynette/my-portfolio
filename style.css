@@ -48,7 +48,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 4px solid red;
   height: 90vh;
 }
 
@@ -378,6 +377,10 @@ textarea {
     display: none;
   }
 
+  .content {
+    transform: translateY(-120px);
+  }
+
   .desktop-nav {
     display: flex;
     justify-content: center;
@@ -387,24 +390,6 @@ textarea {
     align-items: center;
     width: 100%;
     background: transparent;
-  }
-
-  /* .about-me {
-    height: 114px;
-    width: 100%;
-    top: 160px;
-    background: transparent;
-    font-weight: 800;
-    font-size: 26px;
-    font-style: normal;
-    text-align: center;
-    line-height: 60px;
-    position: static;
-  } */
-
-  .about-me {
-    height: 300px;
-    padding: 20px;
   }
 
   .title {
@@ -444,12 +429,14 @@ textarea {
     height: 1024px;
     margin: 5px auto;
     margin-bottom: 10px;
+    padding-bottom: 50px;
   }
 
   .single-project {
     width: 369px;
     height: 474px;
     border-radius: 8px;
+    padding-bottom: 50px;
   }
 
   .tech-stack {
@@ -484,6 +471,10 @@ textarea {
     align-items: center;
     margin-top: 0;
     gap: 24px;
+  }
+
+  .paragraph {
+    transform: translateY(-70px);
   }
 
   .footer-grid h3 {
@@ -531,15 +522,6 @@ textarea {
     margin: 0;
   }
 
-  .footer-nav {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 20px;
-    margin-top: 150px;
-  }
-
   .lang {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -551,5 +533,19 @@ textarea {
     width: 369px;
     height: 352px;
     border-radius: 8px;
+  }
+
+  .footer-nav {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 100px;
+    background-image: url(./images/box.svg), url(./images/group.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left, 10rem bottom;
+    background-size: 8%;
+    margin-bottom: 20px;
   }
 }
