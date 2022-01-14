@@ -36,6 +36,14 @@ header {
   width: 90px;
   height: 28px;
   cursor: pointer;
+  animation-name: rotate;
+  animation-duration: 4s;
+  rotate: 0deg;
+}
+
+@keyframes rotate {
+  0% { rotate: 0deg; }
+  100% { rotate: 360deg; }
 }
 
 .intro {
