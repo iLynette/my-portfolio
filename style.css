@@ -418,7 +418,7 @@ textarea {
   }
 
   .down-arrow {
-    display: none;
+    transform: translateY(-280px)
   }
 
   .my-projects {
