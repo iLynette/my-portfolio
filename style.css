@@ -389,7 +389,7 @@ textarea {
     background: transparent;
   }
 
-  .about {
+  /* .about-me {
     height: 114px;
     width: 100%;
     top: 160px;
@@ -398,9 +398,13 @@ textarea {
     font-size: 26px;
     font-style: normal;
     text-align: center;
-    letter-spacing: 0.37px;
     line-height: 60px;
     position: static;
+  } */
+
+  .about-me {
+    height: 300px;
+    padding: 20px;
   }
 
   .title {
@@ -420,6 +424,10 @@ textarea {
     height: 96px;
   }
 
+  .btn {
+    margin-bottom: 30px;
+  }
+
   .page-links a:hover {
     background: rgb(51, 51, 165);
   }
@@ -435,7 +443,7 @@ textarea {
     width: 1171px;
     height: 1024px;
     margin: 5px auto;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
   }
 
   .single-project {
@@ -467,14 +475,18 @@ textarea {
     color: #42526e;
     font-size: 20px;
     text-align: center;
-    margin: 24px 0;
   }
 
-  footer {
+  .footer-grid {
     display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+    gap: 24px;
   }
 
-  .contact h3 {
+  .footer-grid h3 {
     display: flex;
     align-items: center;
     font-style: normal;
@@ -484,11 +496,12 @@ textarea {
     color: #172b4d;
     width: 463px;
     height: 256px;
+    margin-right: 20px;
   }
 
   input {
     height: 48px;
-    width: 684px;
+    width: 644px;
     border-radius: 4px;
     border: 1px solid #d0d9d4;
     box-sizing: border-box;
@@ -497,7 +510,7 @@ textarea {
 
   textarea {
     height: 114px;
-    width: 684px;
+    width: 644px;
     border-radius: 4px;
     line-height: 24px;
     font-size: 15px;
@@ -516,5 +529,24 @@ textarea {
     font-style: normal;
     text-align: center;
     margin: 0;
+  }
+
+  .footer-nav {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 150px;
+  }
+
+  .lang {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 24px;
+    height: 360px;
   }
 }
