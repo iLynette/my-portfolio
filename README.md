@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> Creating my portfolio
+> Creating my portfolio website to showcase my development skills
 
 ![screenshot](./screenshot9.png)
 
@@ -15,6 +15,10 @@
 - Linters
 - Figma
 - VS code
+
+## Live Demo
+
+[Click here](https://ilynette.github.io/my-portfolio//)
 
 Prerequisites
 
