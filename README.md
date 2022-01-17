@@ -4,7 +4,7 @@
 
 > Creating my portfolio website to showcase my development skills
 
-![screenshot](./screenshot9.png)
+![screenshot](./app_screenshot.png)
 
 
 
@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-Tor the link to the live demo, [Click here](https://ilynette.github.io/my-portfolio//)
+For the link to the live demo, [Click here](https://ilynette.github.io/my-portfolio//)
 
 Prerequisites
 
