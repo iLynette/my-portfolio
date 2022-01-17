@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Click here](https://ilynette.github.io/my-portfolio//)
+Tor the link to the live demo, [Click here](https://ilynette.github.io/my-portfolio//)
 
 Prerequisites
 
