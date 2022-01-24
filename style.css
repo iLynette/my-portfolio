@@ -166,10 +166,12 @@ hr {
 }
 
 .paragraph {
+  display: flex;
+  justify-content: center;
   text-align: center;
   width: 327px;
   height: 363px;
-  margin: 60px;
+  margin: 5px auto;
   font-weight: 700;
   line-height: 52px;
   font-size: 40px;
@@ -348,6 +350,7 @@ hr {
   border: 1px solid #d0d9d4;
   margin-top: 24px;
   background: #ebf0ee;
+  margin-bottom: 60px;
 }
 
 .language {
@@ -400,9 +403,10 @@ form {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 60px;
 }
 
-.contact h3 {
+.contact p {
   height: 363px;
   font-size: 40px;
   font-weight: 700;
@@ -607,7 +611,7 @@ footer {
     transform: translateY(-70px) translateX(3px);
   }
 
-  .footer-grid h3 {
+  .footer-grid p {
     display: flex;
     align-items: center;
     font-style: normal;
