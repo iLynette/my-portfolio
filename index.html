@@ -22,15 +22,28 @@
 </head>
 <body>
         <header>
-            <h1 class="logo">Welcome</h1>
-            <nav>
-                <i class="fas fa-bars mobile-nav" aria-hidden="true"></i> 
-                <ul class="desktop-nav">
-                    <li><a class="nav-item" href="#">Portfolio</a></li>
-                    <li><a class="nav-item" href="#">About</a></li>
-                    <li><a class="nav-item" href="#">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="container">
+                <h1 class="logo">Welcome</h1>
+                <nav class="navbar">
+                    <i class="fas fa-bars mobile-nav" aria-hidden="true"></i> 
+                    <ul class="desktop-nav">
+                        <li><a class="nav-item" href="#works">Portfolio</a></li>
+                        <li><a class="nav-item" href="#about-me">About</a></li>
+                        <li><a class="nav-item" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="navbar-mobile hidden">
+                    <div class="navbar-close-menu">
+                        <img src="./images/x.png" id="cross-sign" alt="close-menu">
+                    </div>
+                    <ul class="mobile-nav-menu">
+                        <li><a class="nav-item-link" href="#works">Portfolio</a></li>
+                        <li><a class="nav-item-link" href="#about-me">About</a></li>
+                        <li><a class="nav-item-link" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <section class="intro">
@@ -79,7 +92,7 @@
             </div>
         </section>
 
-        <section class="my-projects">
+        <section class="my-projects" id="works">
             <div class="project-container">
                     <div class="single-project">
                         <img src="./images/placeholder.png" alt="">
@@ -184,7 +197,7 @@
             </div>
         </section>
 
-        <section class="about-me">
+        <section class="about-me" id="about-me">
             <div class="section-title">
                 <h2 class="heading">About Me</h2>
             </div>
@@ -243,7 +256,7 @@
             </ul>
         </section>
 
-        <section class="footer-nav">
+        <section class="footer-nav" id="contact">
             <div class="footer-grid">
                 <h3 class="paragraph">
                     I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -282,5 +295,6 @@
             </ul>
             <h3 class="mail"><a href="acholahlynette111@gmail.com">acholahlynette111@gmail.com</a></h3>
         </footer> 
+<script src="./script.js"></script>
 </body>
 </html>
