@@ -499,13 +499,19 @@ footer {
 
   .desktop-nav {
     display: flex;
-    justify-content: center;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     font-weight: 500;
-    align-items: center;
-    width: 100%;
-    background: transparent;
+    font-size: 20px;
+    margin: 5px auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .title {
