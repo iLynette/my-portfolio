@@ -4,7 +4,7 @@
 
 > Creating my portfolio website to showcase my development skills
 
-![screenshot](./app_screenshot.png)
+![screenshot](./mobilepop.png)
 
 
 
@@ -14,6 +14,7 @@
 - CSS
 - Linters
 - Figma
+- Javascript
 - VS code
 
 ## Live Demo
@@ -38,6 +39,10 @@ You only need a browser to run the html file.
 
 - GitHub: [@githubhandle](https://github.com/i-max-xi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/appiah-maxwell-0212b41a1/)
+
+👤 **Author3**
+- GitHub: [@githubhandle](https://github.com/levy002)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/levy-ukwishaka-405391223)
 
 
 ## 🤝 Contributing
