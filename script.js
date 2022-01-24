@@ -17,4 +17,4 @@ function close() {
 }
 closeMenu.addEventListener("click", close)
 
-listMenu.forEach((elem) => elem.addEventListener("click", close))
+listMenu.forEach((elem) => elem.addEventListener("click", close));;
