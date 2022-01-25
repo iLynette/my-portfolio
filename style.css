@@ -600,7 +600,7 @@ footer {
   }
 
   .paragraph {
-    transform: translateY(-30px);
+    /* transform: translateY(-30px); */
   }
 
   .paragraph:hover {

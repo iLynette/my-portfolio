@@ -21,4 +21,3 @@ listMenu.forEach((elem) => elem.addEventListener('click', close));
 
 // windowpopup
 
-
