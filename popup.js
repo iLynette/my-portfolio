@@ -170,15 +170,14 @@ const form = document.getElementById('my-form');
 function validation() {
   const email = document.getElementById('email');
   const error = document.getElementById('error-message');
-  if(email.value === email.value.toLowerCase()) {
-   return true;
+  if (email.value === email.value.toLowerCase()) {
+    return true;
   }
-  error.innerHTML = `Invalid Email, please use small letters!.`;
+  error.innerHTML = 'Invalid Email, please use small letters!.';
   return false;
 }
 form.addEventListener('submit', (event) => {
-  if(!validation()) {
+  if (!validation()) {
     event.preventDefault();
   }
 });
-
