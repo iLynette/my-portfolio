@@ -12,3 +12,9 @@ if (localStorage.getItem('formData') != null) {
   forms.message.value = formData.message;
 }
 
+forms.addEventListener('change', () => {
+  formData.name = forms.name.value;
+  formData.email = forms.email.value;
+  formData.message = forms.message.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
