@@ -262,9 +262,9 @@
                 </p>
 
                 <form action="https://formspree.io/f/xvolgewa" method="post" id="my-form">
-                    <input type="text" placeholder="Full name" maxlength="30" name="full-name" required>
+                    <input type="text" placeholder="Full name" maxlength="30" name="full-name" id="name" required>
                     <input type="email" placeholder="Email address" name="email" id="email" required>
-                    <textarea name="message" placeholder="Typing something" maxlength="500" required></textarea>
+                    <textarea name="message" placeholder="Typing something" maxlength="500" id="message" required></textarea>
                     <input type="submit" class="btn-green" value="Get in touch">
                     <small id="error-message" class="error"></small>
                 </form>
@@ -299,5 +299,6 @@
         </footer> 
 <script src="./script.js"></script>
 <script src="popup.js"></script>
+<script src="./storage.js"></script>
 </body>
 </html>
