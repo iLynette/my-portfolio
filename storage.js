@@ -12,7 +12,7 @@ if (localStorage.getItem('formData') != null) {
   forms.message.value = formData.message;
 }
 
-forms.addEventListener('change', () => {
+forms.addEventListener('submit', () => {
   formData.name = forms.name.value;
   formData.email = forms.email.value;
   formData.message = forms.message.value;
