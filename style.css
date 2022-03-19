@@ -240,6 +240,10 @@ hr {
   height: 55%;
 }
 
+.single-project img:hover {
+  transform: scale(1.03);
+}
+
 .single-project .project-title {
   display: flex;
   justify-content: center;
