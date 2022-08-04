@@ -227,6 +227,11 @@ hr {
   flex-direction: column;
 }
 
+/* img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+} */
+
 .single-project {
   height: 474px;
   border-radius: 8px;
