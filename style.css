@@ -283,6 +283,7 @@ hr {
 .btn {
   display: flex;
   justify-content: center;
+  gap: 5px;
   margin: 22px;
 }
 
