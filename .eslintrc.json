@@ -12,6 +12,9 @@
     "extends": ["airbnb-base"],
     "rules": {
       "no-shadow": "off",
+      "func-names": "off",
+      "no-unused-vars":"off",
+      "no-use-before-define":"off",
       "no-param-reassign": "off",
       "eol-last": "off",
       "import/extensions": [ 1, {
