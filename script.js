@@ -4,6 +4,7 @@ const menuList = document.querySelector('.mobile-nav');
 const mobileMenu = document.querySelector('.navbar-mobile');
 const mobileNav = document.querySelector('.navbar-mobile');
 const listMenu = Array.from(menuAction);
+const mybutton = document.getElementById('myBtn');
 
 function open() {
   mobileMenu.classList.remove('hidden');
