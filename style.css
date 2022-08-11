@@ -490,6 +490,15 @@ footer {
   color: white;
 }
 
+#myBtn {
+  background-color: #36b37f;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #36b37f;
+  margin: 0 5px;
+}
+
 @media screen and (min-width: 992px) {
   header {
     justify-content: center;
