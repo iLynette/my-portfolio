@@ -31,9 +31,9 @@ You only need a browser to run the html file.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/iLynette)
-- Twitter: [@twitterhandle](https://twitter.com/acholah_lynette)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lynette-acholah/)
+- GitHub: [@iLynette](https://github.com/iLynette)
+- Twitter: [@achola_lynette](https://twitter.com/acholah_lynette)
+- LinkedIn: [Lynette Acholah](https://www.linkedin.com/in/lynette-acholah/)
 
 👤 **Author2**
 
